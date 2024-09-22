@@ -25,6 +25,7 @@ div, #page, footer {
 	flex-direction: row;
     align-items: flex-start; 
 	justify-content: flex-start;
+	flex-wrap: wrap;
 }
 
 #content {
