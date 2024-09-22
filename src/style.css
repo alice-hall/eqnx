@@ -1,1 +1,87 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        /* Sidebar styling */
+        .sidebar {
+            width: 250px;
+            background-color: #333;
+            padding: 20px;
+            height: 100vh;
+        }
+        
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+        
+        /* Main content area */
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        
+        /* Styling for various text formats */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Georgia', serif;
+            margin-top: 1em;
+        }
+        
+        p {
+            line-height: 1.6;
+        }
+        
+        blockquote {
+            margin: 20px 0;
+            padding: 10px;
+            border-left: 4px solid #ccc;
+            background-color: #f9f9f9;
+        }
+        
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
 
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
