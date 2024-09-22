@@ -1,100 +1,39 @@
-* {
-	box-sizing: border-box;
-}
+/* structure */
+
+* { box-sizing: border-box; }
 
 body, h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	margin: 0;
 }
 
-body, p {
-	font-size: 12pt;
-}
-
-h1.title, h1.title a {
-	text-decoration: none;
-}
-
-h2.subtitle {
-	font-size: 10pt;
-}
-
-h2 {
-	font-size: 16pt;
-	line-height: 1.75em;
-}
-
-h3 {
-	font-size: 14pt;
-	line-height: 1.5em;
-}
-
-h4, h5, h6 {
-	font-size: 12pt;
-}
-
-blockquote {
-	font-style: italic;
-}
-
-pre, code {
-	font-family: monospace;
-}
-
-a, a:link {
-	font-weight: 400;
-}
-
-a:visited {
-	color: #0000ff;
-}
-
-a:hover {
-	color: #000;
-}
-
-div, footer {
+div, #page, footer {
 	width: 100%;
 }
 
-#page, footer {
-	margin: auto;
+#sidebar {
+	max-width: 350px;
 }
 
-#page, footer {
+#sidebar iframe {
+    height: 100vh; /* Full viewport height */
+	position: fixed;
+}
+
+ #page, footer {
 	display: flex;
 	flex-direction: row;
     align-items: flex-start; 
 	justify-content: flex-start;
 }
 
-#page {
-	padding: 20px 10px;
-}
-
-#sidebar {
-	max-width: 350px;
-	height: 100% !important;
-}
-
-
-nav ol {
-	list-style-type: lower-roman;
-}
-
 #content {
 	margin-left: 20px;
-	max-width: 950px;
-	background: #ffffff;
-	padding: 40px 20px;
+	max-width: 850px;
 }
 
 section {
-	padding-left: 10px;
-	font-size: 11pt;
-}
-
-section p {
+	padding-left: 20px;
 	font-size: 11pt;
 }
 
@@ -103,13 +42,39 @@ footer {
 	font-size: 10pt !important;
 	padding: 20px 0px;
 	text-align: center;
-	margin-top: 80px;
+	margin-top: 60px; 
 }
+
+/* text */
+
+body, p { font-size: 12pt; }
+
+h1.title, h1.title a { text-decoration: none; }
+
+h2.subtitle { font-size: 10pt; }
+
+h2 {
+	font-size: 16pt;
+	line-height: 1.75em;
+}
+
+h3 {
+	font-size: 14pt;
+	line-height: 1.5em;	}
+	
+h4, h5, h6 { font-size: 12pt; }
+
+blockquote { font-style: italic; }
+
+pre, code { font-family: monospace; }
+
+
+a:visited { color: #0000ff; }
+a:hover { color: #000; }
+
+nav ol { list-style-type: lower-roman; }
 
 .top, .top a  {
-	font-weight: bold;
 	margin-top: 40px;
-	text-decoration: none;
+	text-align: right;
 }
-
-	
