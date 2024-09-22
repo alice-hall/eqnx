@@ -1,5 +1,3 @@
-https://alice-hall.github.io/equinox/
-
 ## Changelog
 
 ```
@@ -8,3 +6,7 @@ https://alice-hall.github.io/equinox/
 2024-07-24	Private Github Repository created for initial world outline
 2024-07-23	Hello World!
 ```
+
+## Links
+
+* https://alice-hall.github.io/equinox/
