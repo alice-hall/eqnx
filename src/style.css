@@ -105,6 +105,8 @@ nav ol {
 #content {
 	margin-left: 20px;
 	max-width: 950px;
+	background: #ffffff;
+	padding: 20px 10px;
 }
 
 section {
