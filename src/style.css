@@ -79,3 +79,10 @@ nav ol { list-style-type: lower-roman; }
 	margin-top: 40px;
 	text-align: right;
 }
+
+/* Mobile Styles (screen width 768px and below) */
+@media (max-width: 750px) {{
+    #sidebar iframe, #sidebar {
+        display: none; !important;
+    }
+}
