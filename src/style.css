@@ -18,6 +18,7 @@ div, #page, footer {
 #sidebar iframe {
     height: 100vh; /* Full viewport height */
 	position: fixed;
+	Display: inline-block;
 }
 
  #page, footer {
@@ -26,6 +27,7 @@ div, #page, footer {
     align-items: flex-start; 
 	justify-content: flex-start;
 	flex-wrap: wrap;
+	Display: block;
 }
 
 #content {
