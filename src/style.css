@@ -13,6 +13,7 @@ div, #page, footer {
 
 #sidebar {
 	max-width: 350px;
+	background: #fff;
 }
 
 #sidebar iframe {
